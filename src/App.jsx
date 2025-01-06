@@ -1,12 +1,12 @@
+import React from 'react'
+import LikeDislike from './components/LikeDislike'
 
-import Counter from './components/Counter'
-
-function App() {
-
+const App = () => {
   return (
-    <>
-      <Counter></Counter>
-    </>
+    <div>
+      <h1>Ishan</h1>
+      <LikeDislike></LikeDislike>
+    </div>
   )
 }
 
